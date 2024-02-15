@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Kategorier</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="index.html" class="logo"><img src="imgs/logo_test.svg" alt="logo"></a>
+            </div>
+            <div>
+                <div class="navbar">
+                    <a href="mushroom.html" class="current_page">Mushrooms</a>
+                    <a href="recipes.html" class="current_page">Recipes</a>
+                </div>
+                <div class="menu_ikoner">
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2 class="overskrift">Mushrooms</h2>
+        <div class="grid_produktliste">
+            <template id="smallProductTemplate">
+                <article class="smallProduct">
+                    <img src="https://kea-alt-del.dk/t7/images/webp/640/1533.webp " alt="mushroom" />
+                    <h3>Mushroom</h3>
+                </article>
+            </template>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="mushroom.js"></script>
+</body>
